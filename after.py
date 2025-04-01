@@ -7,12 +7,12 @@ class dog:
     def info(self): #info is an user defined method
         print("Dogs are cute.")
 obj=dog("jam","2")
-print(obj.nam,obj.taste)
+print("name : ",obj.nam,obj.taste)
 print(obj.ag, "year old")
 
 
 obj=dog("suff","3")
-print(obj.nam,obj.taste)
+print("name : ",obj.nam,obj.taste)
 print(obj.ag, "year old")
 
 obj.info()
